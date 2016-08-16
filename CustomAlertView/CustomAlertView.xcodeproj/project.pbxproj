@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2E119F11D6360AB0027495C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E119F01D6360AB0027495C /* main.m */; };
+		A2E119F41D6360AB0027495C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E119F31D6360AB0027495C /* AppDelegate.m */; };
+		A2E119FC1D6360AB0027495C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E119FB1D6360AB0027495C /* Assets.xcassets */; };
+		A2E119FF1D6360AB0027495C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E119FD1D6360AB0027495C /* LaunchScreen.storyboard */; };
+		A2E11A081D6361670027495C /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E11A071D6361670027495C /* CustomViewController.m */; };
+		A2E11A0B1D63616F0027495C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E11A0A1D63616F0027495C /* RootViewController.m */; };
+		A2E11A0F1D6364AC0027495C /* PopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E11A0E1D6364AC0027495C /* PopupAnimation.m */; };
+		A2E11A121D6364E60027495C /* CAAnimationGroup+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E11A111D6364E60027495C /* CAAnimationGroup+Blocks.m */; };
+		A2E11A151D6368B40027495C /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E11A141D6368B40027495C /* CustomViewCell.m */; };
+		BE35BCFF9F50BBDC28C3C32E /* libPods-CustomAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7040DBED34BFBBF242E0E3E /* libPods-CustomAlertView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2E119EC1D6360AB0027495C /* CustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E119F01D6360AB0027495C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2E119F21D6360AB0027495C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2E119F31D6360AB0027495C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2E119FB1D6360AB0027495C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2E119FE1D6360AB0027495C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2E11A001D6360AB0027495C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E11A061D6361670027495C /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		A2E11A071D6361670027495C /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		A2E11A091D63616F0027495C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A2E11A0A1D63616F0027495C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A2E11A0D1D6364AC0027495C /* PopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupAnimation.h; sourceTree = "<group>"; };
+		A2E11A0E1D6364AC0027495C /* PopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupAnimation.m; sourceTree = "<group>"; };
+		A2E11A101D6364E60027495C /* CAAnimationGroup+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimationGroup+Blocks.h"; sourceTree = "<group>"; };
+		A2E11A111D6364E60027495C /* CAAnimationGroup+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationGroup+Blocks.m"; sourceTree = "<group>"; };
+		A2E11A131D6368B40027495C /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
+		A2E11A141D6368B40027495C /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
+		AA0DEAB1EB8CD56EE3AC29D3 /* Pods-CustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		B7040DBED34BFBBF242E0E3E /* libPods-CustomAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF836ED321904F5A30E0CC8A /* Pods-CustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2E119E91D6360AB0027495C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE35BCFF9F50BBDC28C3C32E /* libPods-CustomAlertView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01743806B2C06DC89A4CE39A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF836ED321904F5A30E0CC8A /* Pods-CustomAlertView.debug.xcconfig */,
+				AA0DEAB1EB8CD56EE3AC29D3 /* Pods-CustomAlertView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EBDB8CFF1ACBFED873167F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7040DBED34BFBBF242E0E3E /* libPods-CustomAlertView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2E119E31D6360AB0027495C = {
+			isa = PBXGroup;
+			children = (
+				A2E119EE1D6360AB0027495C /* CustomAlertView */,
+				A2E119ED1D6360AB0027495C /* Products */,
+				01743806B2C06DC89A4CE39A /* Pods */,
+				5EBDB8CFF1ACBFED873167F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2E119ED1D6360AB0027495C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2E119EC1D6360AB0027495C /* CustomAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2E119EE1D6360AB0027495C /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A2E119F21D6360AB0027495C /* AppDelegate.h */,
+				A2E119F31D6360AB0027495C /* AppDelegate.m */,
+				A2E11A091D63616F0027495C /* RootViewController.h */,
+				A2E11A0A1D63616F0027495C /* RootViewController.m */,
+				A2E11A061D6361670027495C /* CustomViewController.h */,
+				A2E11A071D6361670027495C /* CustomViewController.m */,
+				A2E11A131D6368B40027495C /* CustomViewCell.h */,
+				A2E11A141D6368B40027495C /* CustomViewCell.m */,
+				A2E11A0C1D6364AC0027495C /* Animation */,
+				A2E119EF1D6360AB0027495C /* Supporting Files */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
+		A2E119EF1D6360AB0027495C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2E119FB1D6360AB0027495C /* Assets.xcassets */,
+				A2E119FD1D6360AB0027495C /* LaunchScreen.storyboard */,
+				A2E11A001D6360AB0027495C /* Info.plist */,
+				A2E119F01D6360AB0027495C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2E11A0C1D6364AC0027495C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A2E11A0D1D6364AC0027495C /* PopupAnimation.h */,
+				A2E11A0E1D6364AC0027495C /* PopupAnimation.m */,
+				A2E11A101D6364E60027495C /* CAAnimationGroup+Blocks.h */,
+				A2E11A111D6364E60027495C /* CAAnimationGroup+Blocks.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2E119EB1D6360AB0027495C /* CustomAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E11A031D6360AB0027495C /* Build configuration list for PBXNativeTarget "CustomAlertView" */;
+			buildPhases = (
+				86CB0CB7AE0D3C30814A1271 /* [CP] Check Pods Manifest.lock */,
+				A2E119E81D6360AB0027495C /* Sources */,
+				A2E119E91D6360AB0027495C /* Frameworks */,
+				A2E119EA1D6360AB0027495C /* Resources */,
+				54B5C2C59883DC9CADE8F68F /* [CP] Embed Pods Frameworks */,
+				F8F263E6F32B40E0C32B7F2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAlertView;
+			productName = CustomAlertView;
+			productReference = A2E119EC1D6360AB0027495C /* CustomAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2E119E41D6360AB0027495C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kkk;
+				TargetAttributes = {
+					A2E119EB1D6360AB0027495C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A2E119E71D6360AB0027495C /* Build configuration list for PBXProject "CustomAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2E119E31D6360AB0027495C;
+			productRefGroup = A2E119ED1D6360AB0027495C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2E119EB1D6360AB0027495C /* CustomAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2E119EA1D6360AB0027495C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E119FF1D6360AB0027495C /* LaunchScreen.storyboard in Resources */,
+				A2E119FC1D6360AB0027495C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54B5C2C59883DC9CADE8F68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CB0CB7AE0D3C30814A1271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F263E6F32B40E0C32B7F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2E119E81D6360AB0027495C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E119F41D6360AB0027495C /* AppDelegate.m in Sources */,
+				A2E11A0F1D6364AC0027495C /* PopupAnimation.m in Sources */,
+				A2E11A151D6368B40027495C /* CustomViewCell.m in Sources */,
+				A2E11A081D6361670027495C /* CustomViewController.m in Sources */,
+				A2E11A0B1D63616F0027495C /* RootViewController.m in Sources */,
+				A2E11A121D6364E60027495C /* CAAnimationGroup+Blocks.m in Sources */,
+				A2E119F11D6360AB0027495C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2E119FD1D6360AB0027495C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2E119FE1D6360AB0027495C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2E11A011D6360AB0027495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2E11A021D6360AB0027495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2E11A041D6360AB0027495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF836ED321904F5A30E0CC8A /* Pods-CustomAlertView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.CustomAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2E11A051D6360AB0027495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0DEAB1EB8CD56EE3AC29D3 /* Pods-CustomAlertView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.CustomAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2E119E71D6360AB0027495C /* Build configuration list for PBXProject "CustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E11A011D6360AB0027495C /* Debug */,
+				A2E11A021D6360AB0027495C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E11A031D6360AB0027495C /* Build configuration list for PBXNativeTarget "CustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E11A041D6360AB0027495C /* Debug */,
+				A2E11A051D6360AB0027495C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2E119E41D6360AB0027495C /* Project object */;
+}
