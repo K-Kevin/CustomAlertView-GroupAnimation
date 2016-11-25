@@ -162,6 +162,8 @@
 				TargetAttributes = {
 					A2E119EB1D6360AB0027495C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W4JE7P359A;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -361,6 +363,8 @@
 			baseConfigurationReference = BF836ED321904F5A30E0CC8A /* Pods-CustomAlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W4JE7P359A;
 				INFOPLIST_FILE = CustomAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kkk.CustomAlertView;
@@ -373,6 +377,8 @@
 			baseConfigurationReference = AA0DEAB1EB8CD56EE3AC29D3 /* Pods-CustomAlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W4JE7P359A;
 				INFOPLIST_FILE = CustomAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kkk.CustomAlertView;
